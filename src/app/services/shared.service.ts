@@ -1,6 +1,5 @@
 import { User } from './../model/user.model';
 import { Injectable, EventEmitter } from '@angular/core';
-import { identifierModuleUrl } from '@angular/compiler';
 
 @Injectable()
 export class SharedService {

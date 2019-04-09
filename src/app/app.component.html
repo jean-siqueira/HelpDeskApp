@@ -1,7 +1,7 @@
-<app-header [hidden]="!=showTemplate"></app-header>
-<app-menu [hidden]="!=showTemplate"></app-menu>
+<app-header [hidden]="!showTemplate"></app-header>
+<app-menu [hidden]="!showTemplate"></app-menu>
 
-<div class="content-wrapper">
+<div [ngClass]="showContentWrapper()">
 
   <section class="content-header">
     
@@ -13,5 +13,5 @@
 
 </div>
 
-<app-footer [hidden]="!=showTemplate"></app-footer>
+<app-footer [hidden]="!showTemplate"></app-footer>
 
