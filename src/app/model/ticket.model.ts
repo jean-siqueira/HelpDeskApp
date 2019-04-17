@@ -3,14 +3,14 @@ export class Ticket {
     constructor(
         public id: string,
         public number: number,
-        public tipo: string,
         public title: string,
         public status: string,
         public priority: string,
-        public imagem: string,
+        public image: string,
+        public description: string,
         public user: User,
         public assignedUser: User,
-        public data: string,
+        public date: string,
         public changes: Array<string>
     ){}
 }
